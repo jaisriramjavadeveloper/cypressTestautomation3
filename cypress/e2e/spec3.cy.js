@@ -1,8 +1,7 @@
-const { expect } = require("chai");
+describe('should multiply two numbers ', ()=>{
 
-describe('Basic multiplication ', ()=>{
-  it('Should multiply 2 numbers ', ()=>{
-    const result = 2*2;
-    expect(result).to.equal(4);
+  it('Should subtract 4-1 equal to 3', ()=>{
+   const result = 4 * 1;
+   expect(result).to.equal(4);
   })
-})
+});
